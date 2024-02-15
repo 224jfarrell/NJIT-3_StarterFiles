@@ -33,7 +33,9 @@ const vue_app = Vue.createApp({
         return {
             // This holds your movies.json data.
             movies: [],
-            /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            title: "Joseph's Top 8 Movies",
+            owner: "Joseph",
+            github: "https://www.github.com/224jfarrell/"
          
       }
     },
@@ -41,5 +43,6 @@ const vue_app = Vue.createApp({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
       }
 })
+
 
 vue_app.mount("#vue_app")
