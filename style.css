@@ -11,6 +11,7 @@ body {
 /* This stylizes the header area */
 .header {
     padding: 15px;
+    text-align: center;
 }
 .header h1 {
     display: inline-block;
@@ -31,12 +32,14 @@ body {
     margin: 20px;
     border-radius: 0;
     background-color:#dddddd;
+    text-align: center;
 }
 .thumbnail img {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px;
     border: 2px dashed black;
+    text-align: center;
 }
 
 /* This stylizes your "Poster X of Y" text */
@@ -77,11 +80,13 @@ body {
     position: absolute;
     top: 50px;
     right: 25px;
+    border-radius: 50%;
 }
 
 /* This contains your like and dislike buttons */
 .social {
     text-align: right;
+    user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -119,3 +124,20 @@ body {
 }
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
+
+.likes {
+    background-color: #080;
+    color: white;
+}
+.likes:hover {
+    background-color: #9d9;
+    color: #080;
+}
+.dislikes {
+    background-color: #800;
+    color: white;
+}
+.dislikes:hover {
+    background: #d99;
+    color: #800;
+}
