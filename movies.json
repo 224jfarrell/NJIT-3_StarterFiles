@@ -76,11 +76,39 @@
             "runtime": 121,
             "released": [2021, 7, 23],
             "country": "USA",
-            "posters": ["img/MV5BYTZmM2FkOWYtNTdmMy00YmE1LThhYzYtZTk0NDJkNzQwOGUxXkEyXkFqcGdeQXVyMTAzODYwMzY3._V1_QL75_UY148_CR9,0,100,148_.jpg"],
+            "posters": ["img/snakeeyes.jpg", "img/snakeeyes2.jpg"],
             "imdb": "https://www.imdb.com/title/tt8404256",
-            "website": "https://twitter.com/gijoemovie",
-            "likes": 812,
-            "dislikes": 101,
+            "website": "https://www.twitter.com/gijoemovie",
+            "likes": 645,
+            "dislikes": 32,
+            "posterindex": 0
+      },
+      {
+            "title": "Sleepers",
+            "iscore": 7.5,
+            "rating": "R",
+            "runtime": 147,
+            "released": [1996, 10, 18],
+            "country": "USA",
+            "posters": ["img/sleepers.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0117615",
+            "website": "https://www.warnerbros.com/movies/sleepers",
+            "likes": 155,
+            "dislikes": 24,
+            "posterindex": 0
+      },
+      {
+            "title": "Spider-Man: Into the Spider-Verse",
+            "iscore": 8.4,
+            "rating": "PG",
+            "runtime": 117,
+            "released": [2018, 12, 14],
+            "country": "USA",
+            "posters": ["img/spiderverse.jpg"],
+            "imdb": "https://www.imdb.com/title/tt4633694",
+            "website": "https://www.sonypicturesanimation.com/projects/films/spider-man-spider-verse",
+            "likes": 515,
+            "dislikes": 61,
             "posterindex": 0
       }
 ]

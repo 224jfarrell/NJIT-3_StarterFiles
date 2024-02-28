@@ -93,7 +93,13 @@ const vue_app = Vue.createApp({
             timeText(minutes){
                   return Math.trunc(minutes / 60) + ' hours ' + (minutes % 60) + ' minutes';
             },
-            imageInfo() {}
+            imageInfo() {},
+            likeClick(index){
+                  this.movies[index].likes++;
+            },
+            dislikeClick(index){
+                  this.movies[index].dislikes++;
+            }
       }
 })
 
